@@ -16,20 +16,20 @@ sensors used for this project.
 It includes general measurements along with the derived coefficients needed to convert raw ADC readings into distance values in software. <br>
 
 The infrared sensors output an analog voltage that is not linear with distance. The raw ADC value drops as the measured distance increases.
-´´´
+```
 ADC ≈ m / (length + k) + d
-´´´
+```
 **length** [cm] **k**, **m**, **d** are sensor-specific constants determined from calibration measurements.
 k is the small offset that keeps the denominator well-behaved and improves the fit.
 To use this in the firmware, the equation is rearranged to solve for distance:
-´´´
+```
 l = m / (ADC - d) - k
-´´´
+```
 Equivalently, using the inverted coefficients:
-´´´
+```
 m' = 1/m and d' = d/m
 l = 1 / (m' * ADC + d') - k
-´´´
+```
 # Calibration Data
 Measurements were taken at fixed distances (10-130 cm) by recording the averaged ADC value at each distance.
 
