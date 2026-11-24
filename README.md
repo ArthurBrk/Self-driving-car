@@ -1,6 +1,6 @@
 ## Self driving Car project
 The goal is for the car to avoid objects and maneuver itself without issue.
-Attached are three infrared sensors and an ultrasonic sensor. <br>
+Connected to the car are three infrared sensors and an ultrasonic sensor. <br>
 Every infrared had to be calibrated first to get correct readings. The calculation was done via excel and I just pasted the results into the corresponding code-block. <br>
 Having four sensors is a bit overkill but since it is a project I did in my free time means I get to choose the rules.
 
