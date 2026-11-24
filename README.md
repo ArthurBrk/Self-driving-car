@@ -4,7 +4,7 @@ Connected to the car are three infrared sensors and an ultrasonic sensor. <br>
 Every infrared had to be calibrated first to get correct readings. The calculation was done via excel and I just pasted the results into the corresponding code-block. <br>
 Having four sensors is a bit overkill but since it is a project I did in my free time means I get to choose the rules. <br>
 
-# The project was finished successfully in 2024.
+### The project was finished successfully in 2024.
 
 ## Parts
 **Arduino Uno** <br>
